@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A6E8697B18845058007CAC64 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6E8697A18845058007CAC64 /* background.jpg */; };
+		A6E8697E18845328007CAC64 /* Task2aViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E8697D18845328007CAC64 /* Task2aViewController.m */; };
 		D799F31B188422FF00E2C8EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D799F31A188422FF00E2C8EC /* Foundation.framework */; };
 		D799F31D188422FF00E2C8EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D799F31C188422FF00E2C8EC /* CoreGraphics.framework */; };
 		D799F31F188422FF00E2C8EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D799F31E188422FF00E2C8EC /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		A6E8697A18845058007CAC64 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		A6E8697C18845328007CAC64 /* Task2aViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task2aViewController.h; sourceTree = "<group>"; };
+		A6E8697D18845328007CAC64 /* Task2aViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task2aViewController.m; sourceTree = "<group>"; };
 		D799F317188422FF00E2C8EC /* Exercise1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D799F31A188422FF00E2C8EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D799F31C188422FF00E2C8EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 		D799F320188422FF00E2C8EC /* Exercise1 */ = {
 			isa = PBXGroup;
 			children = (
+				A6E8697C18845328007CAC64 /* Task2aViewController.h */,
+				A6E8697D18845328007CAC64 /* Task2aViewController.m */,
 				D799F3A9188447C300E2C8EC /* Images */,
 				D799F3A618843AF200E2C8EC /* Task1ViewController.h */,
 				D799F3A718843AF200E2C8EC /* Task1ViewController.m */,
@@ -274,6 +279,7 @@
 				D799F32B188422FF00E2C8EC /* AppDelegate.m in Sources */,
 				D799F327188422FF00E2C8EC /* main.m in Sources */,
 				D799F3A818843AF200E2C8EC /* Task1ViewController.m in Sources */,
+				A6E8697E18845328007CAC64 /* Task2aViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
