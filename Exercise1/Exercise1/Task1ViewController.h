@@ -14,6 +14,7 @@ int X;
 @interface Task1ViewController : UIViewController{
     IBOutlet UIImageView *Helicopter;
     IBOutlet UIButton *StartButton;
+    bool hasStarted;
     
     NSTimer *timer;
 }
