@@ -21,9 +21,8 @@
 		D799F33C188422FF00E2C8EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D799F31E188422FF00E2C8EC /* UIKit.framework */; };
 		D799F344188422FF00E2C8EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D799F342188422FF00E2C8EC /* InfoPlist.strings */; };
 		D799F346188422FF00E2C8EC /* Exercise1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D799F345188422FF00E2C8EC /* Exercise1Tests.m */; };
-		D799F39D188433D500E2C8EC /* helicopter.png in Resources */ = {isa = PBXBuildFile; fileRef = D799F39C188433D500E2C8EC /* helicopter.png */; };
-		D799F39F1884345C00E2C8EC /* jesus.png in Resources */ = {isa = PBXBuildFile; fileRef = D799F39E1884345C00E2C8EC /* jesus.png */; };
 		D799F3A818843AF200E2C8EC /* Task1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D799F3A718843AF200E2C8EC /* Task1ViewController.m */; };
+		D799F3AB1884499E00E2C8EC /* helicopter.png in Resources */ = {isa = PBXBuildFile; fileRef = D799F3AA1884499E00E2C8EC /* helicopter.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +55,9 @@
 		D799F341188422FF00E2C8EC /* Exercise1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Exercise1Tests-Info.plist"; sourceTree = "<group>"; };
 		D799F343188422FF00E2C8EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D799F345188422FF00E2C8EC /* Exercise1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exercise1Tests.m; sourceTree = "<group>"; };
-		D799F39C188433D500E2C8EC /* helicopter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = helicopter.png; path = ../../../../../../Utvikling/homesite/app/assets/images/helicopter.png; sourceTree = "<group>"; };
-		D799F39E1884345C00E2C8EC /* jesus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jesus.png; path = ../../../../../../Utvikling/homesite/app/assets/images/jesus.png; sourceTree = "<group>"; };
 		D799F3A618843AF200E2C8EC /* Task1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task1ViewController.h; sourceTree = "<group>"; };
 		D799F3A718843AF200E2C8EC /* Task1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task1ViewController.m; sourceTree = "<group>"; };
+		D799F3AA1884499E00E2C8EC /* helicopter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helicopter.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,10 +163,9 @@
 		D799F3A9188447C300E2C8EC /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				D799F39E1884345C00E2C8EC /* jesus.png */,
-				D799F39C188433D500E2C8EC /* helicopter.png */,
+				D799F3AA1884499E00E2C8EC /* helicopter.png */,
 			);
-			name = Images;
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,10 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D799F39D188433D500E2C8EC /* helicopter.png in Resources */,
+				D799F3AB1884499E00E2C8EC /* helicopter.png in Resources */,
 				D799F333188422FF00E2C8EC /* Images.xcassets in Resources */,
 				D799F325188422FF00E2C8EC /* InfoPlist.strings in Resources */,
-				D799F39F1884345C00E2C8EC /* jesus.png in Resources */,
 				D799F32E188422FF00E2C8EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
