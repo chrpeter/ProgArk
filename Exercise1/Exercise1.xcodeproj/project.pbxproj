@@ -119,6 +119,7 @@
 		D799F320188422FF00E2C8EC /* Exercise1 */ = {
 			isa = PBXGroup;
 			children = (
+				D799F3A9188447C300E2C8EC /* Images */,
 				D799F3A618843AF200E2C8EC /* Task1ViewController.h */,
 				D799F3A718843AF200E2C8EC /* Task1ViewController.m */,
 				D799F329188422FF00E2C8EC /* AppDelegate.h */,
@@ -135,8 +136,6 @@
 		D799F321188422FF00E2C8EC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D799F39E1884345C00E2C8EC /* jesus.png */,
-				D799F39C188433D500E2C8EC /* helicopter.png */,
 				D799F322188422FF00E2C8EC /* Exercise1-Info.plist */,
 				D799F323188422FF00E2C8EC /* InfoPlist.strings */,
 				D799F326188422FF00E2C8EC /* main.m */,
@@ -161,6 +160,15 @@
 				D799F342188422FF00E2C8EC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D799F3A9188447C300E2C8EC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D799F39E1884345C00E2C8EC /* jesus.png */,
+				D799F39C188433D500E2C8EC /* helicopter.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -476,6 +484,7 @@
 				D799F34B188422FF00E2C8EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D799F34C188422FF00E2C8EC /* Build configuration list for PBXNativeTarget "Exercise1Tests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +493,7 @@
 				D799F34E188422FF00E2C8EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
