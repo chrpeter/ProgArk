@@ -26,13 +26,45 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    UITouch *touch = [[event allTouches] anyObject];
+    CGPoint location = [touch locationInView:touch.view];
+    Helicopter.center = location;
+}
+
+-(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self touchesBegan:touches withEvent:event];
+    
+    
+}
+
+-(void)HelicopterMovement{
+    
+    Helicopter.center = CGPointMake(Helicopter.center.x + X, Helicopter.center.y + Y);
+    
+    if(Helicopter.center.x < 60){
+        X = 0 - X;
+    }
+    if(Helicopter.center.x > 260){
+        X = 0 - X;
+    }
+    if(Helicopter.center.y < 50){
+        Y = 0 - Y;
+    }
+    if(Helicopter.center.y > 550){
+        Y = 0 - Y;
+        
+    }
 }
 
 @end

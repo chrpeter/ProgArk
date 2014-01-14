@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Task2aViewController : UIViewController
+int X;
+int Y;
+CGPoint startLocation;
+
+
+@interface Task2aViewController : UIViewController{
+    
+    IBOutlet UIImageView *Helicopter;
+    NSTimer *timer;
+    
+}
+-(void)HelicopterMovement;
 
 @end

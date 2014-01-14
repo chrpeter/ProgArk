@@ -79,7 +79,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzk-e2-fYK">
-                                <rect key="frame" x="74" y="25" width="33" height="30"/>
+                                <rect key="frame" x="73" y="25" width="33" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -99,10 +99,10 @@
             </objects>
             <point key="canvasLocation" x="705" y="109"/>
         </scene>
-        <!--View Controller-->
+        <!--Task 2a View Controller-->
         <scene sceneID="SVP-ci-612">
             <objects>
-                <viewController id="Iv2-uu-sD5" sceneMemberID="viewController">
+                <viewController id="Iv2-uu-sD5" customClass="Task2aViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="laH-h4-Lba"/>
                         <viewControllerLayoutGuide type="bottom" id="rpP-4e-ivM"/>
@@ -125,9 +125,16 @@
                                     <segue destination="vXZ-lx-hvc" kind="modal" id="QnN-q8-BOf"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="helicopter.png" translatesAutoresizingMaskIntoConstraints="NO" id="f4c-Vs-qd0">
+                                <rect key="frame" x="148" y="280" width="103" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="Helicopter" destination="f4c-Vs-qd0" id="dnt-Xa-yQT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IMB-06-uQt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
