@@ -8,17 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-int X;
-int Y;
 CGPoint startLocation;
 
 
 @interface Task2aViewController : UIViewController{
-    
+    IBOutlet UILabel *labelResult;
     IBOutlet UIImageView *Helicopter;
+    IBOutlet UIButton *RotateButton;
     NSTimer *timer;
+    float transform;
     
 }
--(void)HelicopterMovement;
-
+-(IBAction)rotateButton:(id)sender;
 @end
