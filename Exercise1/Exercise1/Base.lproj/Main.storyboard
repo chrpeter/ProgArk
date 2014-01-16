@@ -111,9 +111,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="x4n-tW-oFi">
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="x4n-tW-oFi">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="6nf-Om-SRi" appends="YES" id="dp4-p0-lmI"/>
+                                </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2R-2i-bfg">
                                 <rect key="frame" x="254" y="16" width="35" height="30"/>
@@ -125,9 +129,13 @@
                                     <segue destination="vXZ-lx-hvc" kind="modal" id="QnN-q8-BOf"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="helicopter.png" translatesAutoresizingMaskIntoConstraints="NO" id="f4c-Vs-qd0">
-                                <rect key="frame" x="138" y="117" width="103" height="49"/>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="helicopter.png" translatesAutoresizingMaskIntoConstraints="NO" id="f4c-Vs-qd0">
+                                <rect key="frame" x="88" y="249" width="103" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="zZE-9t-Yqs" appends="YES" id="4sz-8w-F6o"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6LJ-KE-MbX">
                                 <rect key="frame" x="20" y="20" width="171" height="21"/>
@@ -137,11 +145,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pu9-O1-Dzh" colorLabel="IBBuiltInLabel-Yellow">
-                                <rect key="frame" x="107" y="483" width="121" height="30"/>
+                                <rect key="frame" x="100" y="438" width="121" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Rotate Helicopter">
-                                    <color key="titleColor" red="0.3345625748891381" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.16298280409179833" green="1" blue="7.6210799180298494e-05" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="rotateButton:" destination="Iv2-uu-sD5" eventType="touchUpInside" id="pYG-NM-ujD"/>
@@ -151,11 +158,24 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="Helicopter" destination="f4c-Vs-qd0" id="dnt-Xa-yQT"/>
+                        <outlet property="helicopter" destination="f4c-Vs-qd0" id="dBI-6g-TpT"/>
                         <outlet property="labelResult" destination="6LJ-KE-MbX" id="68R-cC-Nhw"/>
+                        <outlet property="pinch" destination="6nf-Om-SRi" id="XpL-5i-wbf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IMB-06-uQt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="6nf-Om-SRi">
+                    <connections>
+                        <action selector="scaleChopper:" destination="Iv2-uu-sD5" id="slI-di-Egs"/>
+                        <outlet property="delegate" destination="Iv2-uu-sD5" id="beR-Nh-Qvk"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="zZE-9t-Yqs">
+                    <connections>
+                        <action selector="rotatepinch:" destination="Iv2-uu-sD5" id="AXy-GW-47h"/>
+                        <outlet property="delegate" destination="Iv2-uu-sD5" id="Jb8-o3-g0X"/>
+                    </connections>
+                </rotationGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1198" y="109"/>
         </scene>

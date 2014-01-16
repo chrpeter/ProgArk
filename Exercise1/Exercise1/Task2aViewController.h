@@ -13,11 +13,15 @@ CGPoint startLocation;
 
 @interface Task2aViewController : UIViewController{
     IBOutlet UILabel *labelResult;
-    IBOutlet UIImageView *Helicopter;
     IBOutlet UIButton *RotateButton;
     NSTimer *timer;
     float transform;
     
 }
+@property (strong, nonatomic) IBOutlet UIPinchGestureRecognizer *pinch;
 -(IBAction)rotateButton:(id)sender;
+- (IBAction)scaleChopper:(UIPinchGestureRecognizer *)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *helicopter;
+- (IBAction)rotatepinch:(UIRotationGestureRecognizer *)sender;
+
 @end
