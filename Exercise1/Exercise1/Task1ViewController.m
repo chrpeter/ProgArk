@@ -25,7 +25,7 @@
         
         hasStarted = TRUE;
         
-        timer = [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(HelicopterMovement)
+        timer = [NSTimer scheduledTimerWithTimeInterval:0.00001 target:self selector:@selector(HelicopterMovement)
                                                userInfo:nil repeats:YES];
     }
 
