@@ -79,7 +79,7 @@
     } completion:^(BOOL finished){
         self.helicopter.hidden = NO;
         if (rect.size.height > rect.size.width){
-            self.helicopter.frame = CGRectMake(rect.origin.x, rect.origin.y, rect.size.width, rect.size.height);
+            self.helicopter.frame = CGRectMake(rect.origin.x, rect.origin.y, rect.size.height, rect.size.width);
         }
         else{
             self.helicopter.frame = CGRectMake(rect.origin.x, rect.origin.y, rect.size.height, rect.size.width);

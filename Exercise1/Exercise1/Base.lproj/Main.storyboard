@@ -179,6 +179,26 @@
             </objects>
             <point key="canvasLocation" x="1198" y="109"/>
         </scene>
+        <!--GLKit View Controller-->
+        <scene sceneID="hB5-2J-xnn">
+            <objects>
+                <glkViewController autoresizesArchivedViewToFullSize="NO" preferredFramesPerSecond="30" id="fs1-Td-uXb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V8O-4e-bf7"/>
+                        <viewControllerLayoutGuide type="bottom" id="hxk-Vt-Vcb"/>
+                    </layoutGuides>
+                    <glkView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="rQj-hF-56i">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <connections>
+                            <outlet property="delegate" destination="fs1-Td-uXb" id="6ZH-dr-9IY"/>
+                        </connections>
+                    </glkView>
+                </glkViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ikQ-5D-x2r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1576" y="339"/>
+        </scene>
     </scenes>
     <resources>
         <image name="background.jpg" width="640" height="1136"/>

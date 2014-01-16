@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60D76CC188840AB00EDFBD5 /* Task3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60D76CB188840AB00EDFBD5 /* Task3ViewController.m */; };
+		A60D76CE1888412500EDFBD5 /* helicopter-sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = A60D76CD1888412500EDFBD5 /* helicopter-sheet.png */; };
 		A6E8697B18845058007CAC64 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6E8697A18845058007CAC64 /* background.jpg */; };
 		A6E8697E18845328007CAC64 /* Task2aViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E8697D18845328007CAC64 /* Task2aViewController.m */; };
 		D799F31B188422FF00E2C8EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D799F31A188422FF00E2C8EC /* Foundation.framework */; };
@@ -42,6 +44,9 @@
 		58A42550ED064956B80D5873 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF733F1CB134A6BB63EDF3C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		A60D76C818883BA100EDFBD5 /* libPods-cocos2d.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-cocos2d.a"; path = "Pods/build/Debug-iphoneos/libPods-cocos2d.a"; sourceTree = "<group>"; };
+		A60D76CA188840AB00EDFBD5 /* Task3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task3ViewController.h; sourceTree = "<group>"; };
+		A60D76CB188840AB00EDFBD5 /* Task3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task3ViewController.m; sourceTree = "<group>"; };
+		A60D76CD1888412500EDFBD5 /* helicopter-sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "helicopter-sheet.png"; sourceTree = "<group>"; };
 		A6E8697A18845058007CAC64 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		A6E8697C18845328007CAC64 /* Task2aViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task2aViewController.h; sourceTree = "<group>"; };
 		A6E8697D18845328007CAC64 /* Task2aViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task2aViewController.m; sourceTree = "<group>"; };
@@ -142,6 +147,8 @@
 				D799F330188422FF00E2C8EC /* ViewController.m */,
 				D799F332188422FF00E2C8EC /* Images.xcassets */,
 				D799F321188422FF00E2C8EC /* Supporting Files */,
+				A60D76CA188840AB00EDFBD5 /* Task3ViewController.h */,
+				A60D76CB188840AB00EDFBD5 /* Task3ViewController.m */,
 			);
 			path = Exercise1;
 			sourceTree = "<group>";
@@ -178,6 +185,7 @@
 		D799F3A9188447C300E2C8EC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A60D76CD1888412500EDFBD5 /* helicopter-sheet.png */,
 				A6E8697A18845058007CAC64 /* background.jpg */,
 				D799F3AA1884499E00E2C8EC /* helicopter.png */,
 			);
@@ -262,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A60D76CE1888412500EDFBD5 /* helicopter-sheet.png in Resources */,
 				D799F3AB1884499E00E2C8EC /* helicopter.png in Resources */,
 				A6E8697B18845058007CAC64 /* background.jpg in Resources */,
 				D799F333188422FF00E2C8EC /* Images.xcassets in Resources */,
@@ -321,6 +330,7 @@
 				D799F331188422FF00E2C8EC /* ViewController.m in Sources */,
 				D799F32B188422FF00E2C8EC /* AppDelegate.m in Sources */,
 				D799F327188422FF00E2C8EC /* main.m in Sources */,
+				A60D76CC188840AB00EDFBD5 /* Task3ViewController.m in Sources */,
 				D799F3A818843AF200E2C8EC /* Task1ViewController.m in Sources */,
 				A6E8697E18845328007CAC64 /* Task2aViewController.m in Sources */,
 			);
