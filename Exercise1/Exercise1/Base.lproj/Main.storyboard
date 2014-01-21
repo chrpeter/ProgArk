@@ -85,7 +85,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pong-player.png" translatesAutoresizingMaskIntoConstraints="NO" id="dko-Sg-X2s">
-                                <rect key="frame" x="537" y="99" width="17" height="89"/>
+                                <rect key="frame" x="531" y="99" width="17" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHY-VT-rFB">
@@ -112,6 +112,20 @@
                                     <segue destination="vXZ-lx-hvc" kind="modal" id="Qzi-iw-O9J"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pjr-jz-dPa">
+                                <rect key="frame" x="239" y="20" width="26" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.26958203452585627" green="1" blue="0.1374565803568325" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TcX-h1-MYv">
+                                <rect key="frame" x="320" y="20" width="10" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -120,13 +134,15 @@
                     <connections>
                         <outlet property="StartButton" destination="bHY-VT-rFB" id="To7-DB-L6y"/>
                         <outlet property="ball" destination="Ky6-pe-KlC" id="bpX-L5-kzn"/>
+                        <outlet property="computerResult" destination="TcX-h1-MYv" id="7Rg-VG-JBH"/>
                         <outlet property="machine" destination="dko-Sg-X2s" id="R8I-3d-vYZ"/>
                         <outlet property="player" destination="Ufg-kb-DBz" id="AF5-uo-jZ2"/>
+                        <outlet property="playerResult" destination="Pjr-jz-dPa" id="01Q-N2-zpF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FeJ-8S-voS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="457" y="233"/>
+            <point key="canvasLocation" x="1802" y="131"/>
         </scene>
         <!--Task1 View Controller-->
         <scene sceneID="Qvj-7g-vRG">

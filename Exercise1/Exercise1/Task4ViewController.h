@@ -10,6 +10,7 @@
 
 int X;
 int Y;
+int machineY;
 
 @interface Task4ViewController : UIViewController{
     IBOutlet UILabel *playerResult;
@@ -19,16 +20,22 @@ int Y;
     IBOutlet UIImageView *player;
     IBOutlet UIImageView *machine;
     IBOutlet UIButton *StartButton;
+    int computerRes;
+    int playerRes;
     
     
     
     NSTimer *timer;
+    
+    NSTimer *machineTimer;
     
 }
 -(IBAction)StartGame:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UIImageView *player;
 @property (nonatomic,weak) IBOutlet UIButton *StartButton;
+@property (weak, nonatomic) IBOutlet UIImageView *machine;
+
 
 
 @end
