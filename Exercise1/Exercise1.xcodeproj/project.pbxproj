@@ -11,6 +11,10 @@
 		A60D76CE1888412500EDFBD5 /* helicopter-sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = A60D76CD1888412500EDFBD5 /* helicopter-sheet.png */; };
 		A6E8697B18845058007CAC64 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6E8697A18845058007CAC64 /* background.jpg */; };
 		A6E8697E18845328007CAC64 /* Task2aViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E8697D18845328007CAC64 /* Task2aViewController.m */; };
+		B0E6F470188EC3EA0030BE45 /* Task4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E6F46F188EC3EA0030BE45 /* Task4ViewController.m */; };
+		B0E6F472188EC4390030BE45 /* Pong-map.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E6F471188EC4390030BE45 /* Pong-map.png */; };
+		B0E6F476188EC44C0030BE45 /* pong-ball.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E6F475188EC44C0030BE45 /* pong-ball.png */; };
+		B0E6F478188EC5ED0030BE45 /* pong-player.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E6F477188EC5ED0030BE45 /* pong-player.png */; };
 		D799F31B188422FF00E2C8EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D799F31A188422FF00E2C8EC /* Foundation.framework */; };
 		D799F31D188422FF00E2C8EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D799F31C188422FF00E2C8EC /* CoreGraphics.framework */; };
 		D799F31F188422FF00E2C8EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D799F31E188422FF00E2C8EC /* UIKit.framework */; };
@@ -43,13 +47,18 @@
 /* Begin PBXFileReference section */
 		58A42550ED064956B80D5873 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF733F1CB134A6BB63EDF3C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		A60D76C818883BA100EDFBD5 /* libPods-cocos2d.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-cocos2d.a"; path = "Pods/build/Debug-iphoneos/libPods-cocos2d.a"; sourceTree = "<group>"; };
+		A60D76C818883BA100EDFBD5 /* libPods-cocos2d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-cocos2d.a"; path = "Pods/build/Debug-iphoneos/libPods-cocos2d.a"; sourceTree = "<group>"; };
 		A60D76CA188840AB00EDFBD5 /* Task3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task3ViewController.h; sourceTree = "<group>"; };
 		A60D76CB188840AB00EDFBD5 /* Task3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task3ViewController.m; sourceTree = "<group>"; };
 		A60D76CD1888412500EDFBD5 /* helicopter-sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "helicopter-sheet.png"; sourceTree = "<group>"; };
 		A6E8697A18845058007CAC64 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		A6E8697C18845328007CAC64 /* Task2aViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task2aViewController.h; sourceTree = "<group>"; };
 		A6E8697D18845328007CAC64 /* Task2aViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task2aViewController.m; sourceTree = "<group>"; };
+		B0E6F46E188EC3EA0030BE45 /* Task4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task4ViewController.h; sourceTree = "<group>"; };
+		B0E6F46F188EC3EA0030BE45 /* Task4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task4ViewController.m; sourceTree = "<group>"; };
+		B0E6F471188EC4390030BE45 /* Pong-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pong-map.png"; sourceTree = "<group>"; };
+		B0E6F475188EC44C0030BE45 /* pong-ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pong-ball.png"; sourceTree = "<group>"; };
+		B0E6F477188EC5ED0030BE45 /* pong-player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pong-player.png"; sourceTree = "<group>"; };
 		D799F317188422FF00E2C8EC /* Exercise1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D799F31A188422FF00E2C8EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D799F31C188422FF00E2C8EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -149,6 +158,8 @@
 				D799F321188422FF00E2C8EC /* Supporting Files */,
 				A60D76CA188840AB00EDFBD5 /* Task3ViewController.h */,
 				A60D76CB188840AB00EDFBD5 /* Task3ViewController.m */,
+				B0E6F46E188EC3EA0030BE45 /* Task4ViewController.h */,
+				B0E6F46F188EC3EA0030BE45 /* Task4ViewController.m */,
 			);
 			path = Exercise1;
 			sourceTree = "<group>";
@@ -185,6 +196,9 @@
 		D799F3A9188447C300E2C8EC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B0E6F477188EC5ED0030BE45 /* pong-player.png */,
+				B0E6F475188EC44C0030BE45 /* pong-ball.png */,
+				B0E6F471188EC4390030BE45 /* Pong-map.png */,
 				A60D76CD1888412500EDFBD5 /* helicopter-sheet.png */,
 				A6E8697A18845058007CAC64 /* background.jpg */,
 				D799F3AA1884499E00E2C8EC /* helicopter.png */,
@@ -241,6 +255,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Christian&Simen";
 				TargetAttributes = {
+					D799F316188422FF00E2C8EC = {
+						DevelopmentTeam = 3XEH44U384;
+					};
 					D799F337188422FF00E2C8EC = {
 						TestTargetID = D799F316188422FF00E2C8EC;
 					};
@@ -274,8 +291,11 @@
 				D799F3AB1884499E00E2C8EC /* helicopter.png in Resources */,
 				A6E8697B18845058007CAC64 /* background.jpg in Resources */,
 				D799F333188422FF00E2C8EC /* Images.xcassets in Resources */,
+				B0E6F472188EC4390030BE45 /* Pong-map.png in Resources */,
 				D799F325188422FF00E2C8EC /* InfoPlist.strings in Resources */,
 				D799F32E188422FF00E2C8EC /* Main.storyboard in Resources */,
+				B0E6F478188EC5ED0030BE45 /* pong-player.png in Resources */,
+				B0E6F476188EC44C0030BE45 /* pong-ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +351,7 @@
 				D799F32B188422FF00E2C8EC /* AppDelegate.m in Sources */,
 				D799F327188422FF00E2C8EC /* main.m in Sources */,
 				A60D76CC188840AB00EDFBD5 /* Task3ViewController.m in Sources */,
+				B0E6F470188EC3EA0030BE45 /* Task4ViewController.m in Sources */,
 				D799F3A818843AF200E2C8EC /* Task1ViewController.m in Sources */,
 				A6E8697E18845328007CAC64 /* Task2aViewController.m in Sources */,
 			);
@@ -460,10 +481,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Exercise1/Exercise1-Prefix.pch";
 				INFOPLIST_FILE = "Exercise1/Exercise1-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -475,10 +499,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Exercise1/Exercise1-Prefix.pch";
 				INFOPLIST_FILE = "Exercise1/Exercise1-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
